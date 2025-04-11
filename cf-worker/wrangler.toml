@@ -1,0 +1,15 @@
+name = "voice-recorder"
+main = "src/index.js"
+workers_dev = true
+compatibility_date = "2025-04-10"
+
+[observability]
+enabled = true
+
+[observability.logs]
+enabled = true
+
+[[kv_namespaces]]
+binding = "VRKV"
+id = "e87d36e6c1eb424294c8a7d7e5222dfb"
+
